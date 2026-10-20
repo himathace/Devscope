@@ -1,0 +1,13 @@
+[project]
+name = "devscope"
+version = "0.0.0"
+description = "A Managed Deep Agent project."
+requires-python = ">=3.11"
+dependencies = [
+    "colorama>=0.4.6",
+    "firecrawl>=4.53.2",
+    "managed-deepagents==0.9.3",
+]
+
+[tool.mda]
+python-version = "3.14"
