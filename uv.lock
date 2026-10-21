@@ -607,6 +607,7 @@ dependencies = [
     { name = "colorama" },
     { name = "firecrawl" },
     { name = "managed-deepagents" },
+    { name = "python-dotenv" },
 ]
 
 [package.metadata]
@@ -614,6 +615,7 @@ requires-dist = [
     { name = "colorama", specifier = ">=0.4.6" },
     { name = "firecrawl", specifier = ">=4.53.2" },
     { name = "managed-deepagents", specifier = "==0.9.3" },
+    { name = "python-dotenv", specifier = ">=1.2.4" },
 ]
 
 [[package]]
